@@ -49,6 +49,17 @@ export default function Services() {
 
           <div className="mt-2">
             <img
+              src={`${import.meta.env.BASE_URL}images/aicctv.png`}
+              alt="AI CCTV"
+              className="rounded mb-2"
+            />
+            <p className="text-sm">
+              AI CCTV — Intelligent surveillance solution with real-time analytics, automated alerts, and advanced object detection.
+            </p>
+          </div>
+
+          <div className="mt-4">
+            <img
               src={`${import.meta.env.BASE_URL}images/surveillance.png`}
               alt="Surveillance System"
               className="rounded mb-2"
