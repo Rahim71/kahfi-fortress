@@ -10,9 +10,21 @@ export default function TrainingCenter() {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        <img src="/images/1.png" alt="Training Image 1" className="rounded shadow" />
-        <img src="/images/2.png" alt="Training Image 2" className="rounded shadow" />
-        <img src="/images/3.png" alt="Training Image 3" className="rounded shadow" />
+        <img
+          src={`${import.meta.env.BASE_URL}images/1.png`}
+          alt="Training Image 1"
+          className="rounded shadow"
+        />
+        <img
+          src={`${import.meta.env.BASE_URL}images/2.png`}
+          alt="Training Image 2"
+          className="rounded shadow"
+        />
+        <img
+          src={`${import.meta.env.BASE_URL}images/3.png`}
+          alt="Training Image 3"
+          className="rounded shadow"
+        />
       </div>
     </section>
   );
