@@ -10,10 +10,11 @@ export default function JobsGallery() {
     '15.png',
     '16.png',
     '17.png',
-    '18.png'// ,
-    // '19.png',
-    // '21.png',
-    // '22.png'
+    '18.png',
+    '19.png',
+    '21.png',
+    '22.png',
+    '23.png'
     // Add more filenames as you add to public/images/
   ];
 
